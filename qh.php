@@ -31,7 +31,7 @@ $qinghua = json_decode($qinghuaapi, true);
 // 你自己的一句话
 $yjh = ''; 
 
-$touser = 'oqoML6_XVexDvgjpp2QMUqvHDOaY';  
+$touser = 'oqoML67cGBkVhspnKcQYwAGOtxCg';  
 $data = array(
     'touser' => $touser,
     'template_id' => "tMG3f5oCi-1hA3pbH6GE2Gc_q-TQcNvu7XS74jCV0w8", //改成自己的模板id，在微信后台模板消息里查看
