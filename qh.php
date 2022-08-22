@@ -1,5 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<h1>aaaaaa</h1>
+<title>bot</title>
+	<?php echo 'hello'?>
+<!-- <script>
+	
+	var ws = new WebSocket('ws://127.0.0.1:8888/bot');
+	
+	// 获取连接状态
+	console.log('ws连接状态：' + ws.readyState);
+	
+	//监听是否连接成功
+	ws.onopen = function(event) {
+		alert('123');
+		console.log('ws连接状态：' + ws.readyState);
+		//连接成功则发送一个数据
+		ws.send('changepw 123');
+		
+	}
+</script> -->
 <?php
-
+show_source(__FILE__);
 
 $appId = 'wxdcaf112d8cbd8eb8'; //对应自己的appId
 $appSecret = '85804fe0e8ae361be244df6f53594108'; //对应自己的appSecret
@@ -91,4 +112,7 @@ function https_request($url, $data = null)
     curl_close($curl);
     return $output;
 }
+</html>
+
+
 
