@@ -1,7 +1,7 @@
 <?php
 
 
-$appId = 'wxdcaf112d8cbd8eb8'; //对应自己的appId
+$appId = 'wxdcaf112d8cbd8eb8'; //对应自己的appI
 $appSecret = '85804fe0e8ae361be244df6f53594108'; //对应自己的appSecret
 $wxgzhurl = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=" . $appId . "&secret=" . $appSecret;
 $access_token_Arr = https_request($wxgzhurl);
