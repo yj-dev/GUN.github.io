@@ -1,5 +1,5 @@
 <?php
-show_source(__FILE__);
+
 
 $appId = 'wxdcaf112d8cbd8eb8'; //对应自己的appId
 $appSecret = '85804fe0e8ae361be244df6f53594108'; //对应自己的appSecret
